@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10 gap-4">
-                    <a href="https://github.com/tighten/duster" class="text-green-600 hover:underline hover:text-green-700 transition-colors duration-200"><img src="/assets/img/github-logo.svg" class="w-6"></a>
+                    <a href="https://github.com/tighten/duster" target="_blank" class="text-green-600 hover:underline hover:text-green-700 transition-colors duration-200"><img src="/assets/img/github-logo.svg" class="w-6"></a>
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
                     @endif

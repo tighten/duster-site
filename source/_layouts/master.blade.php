@@ -50,12 +50,17 @@
                     </a>
                 </div>
 
-                <div class="flex flex-1 justify-end items-center text-right md:pl-10 gap-3">
+                <div class="flex flex-1 justify-end items-center text-right md:pl-10 gap-4">
+                    <a href="https://github.com/tighten/duster" class="text-green-600 hover:underline hover:text-green-700 transition-colors duration-200"><img src="/assets/img/github-logo.svg" class="w-6"></a>
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
                     @endif
-                    <a href="https://github.com/tighten/duster" class="text-green-600 hover:underline hover:text-green-700 transition-colors duration-200">Contribute</a>
-                    <a href="/docs/duster" title="{{ $page->siteName }} duster" class="px-8 py-2 bg-green-600 transition-colors duration-200 text-white hover:bg-green-700 hover:text-white rounded">Docs</a>
+                    <select class="border rounded py-2 px-3">
+                        <option value="Main">Main</option>
+                        <option value="2.x" selected>2.x</option>
+                        <option value="1.x">1.x</option>
+                    </select>
+                    <a href="/docs/2.x/duster" title="{{ $page->siteName }} duster" class="px-8 py-2 bg-green-600 transition-colors duration-200 text-white hover:bg-green-700 hover:text-white rounded">Docs</a>
                 </div>
             </div>
 

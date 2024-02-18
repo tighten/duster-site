@@ -55,7 +55,7 @@
                         @include('_nav.search-input')
                     @endif
                     <a href="https://github.com/tighten/duster" class="text-green-600 hover:underline hover:text-green-700 transition-colors duration-200">Contribute</a>
-                    <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="px-8 py-2 bg-green-600 transition-colors duration-200 text-white hover:bg-green-700 hover:text-white rounded">Docs</a>
+                    <a href="/docs/duster" title="{{ $page->siteName }} duster" class="px-8 py-2 bg-green-600 transition-colors duration-200 text-white hover:bg-green-700 hover:text-white rounded">Docs</a>
                 </div>
             </div>
 
